@@ -593,11 +593,9 @@ hero:
 
   # About
   about:
-    enable: true
-    title: "자기소개"
-    image: "/images/me.png"
-    content: |-
-      "안녕하세요! 배움과 기록을 좋아하는 개발자 지망생 박가영입니다. 다양한 웹 기술과 클라우드 환경에 관심을 갖고 공부하고 있으며, 배운 내용을 프로젝트로 구현해 보며 경험을 쌓아가고 있습니다."
+  enable: true
+  title: "소개 (About Me)"
+  content: "안녕하세요! 문제 해결과 지속적인 배움을 즐기는 웹 개발자 박가영입니다. 사용자 경험을 개선하고 깔끔한 코드를 작성하는 것에 관심이 많습니다."
     # Skills
   skills:
     enable: true
