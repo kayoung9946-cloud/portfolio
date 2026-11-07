@@ -598,14 +598,17 @@ hero:
     image: "/images/me.png"
     content: |-
       "안녕하세요! 배움과 기록을 좋아하는 개발자 지망생 박가영입니다. 다양한 웹 기술과 클라우드 환경에 관심을 갖고 공부하고 있으며, 배운 내용을 프로젝트로 구현해 보며 경험을 쌓아가고 있습니다."
-    skills:
-      enable: true
-      title: "기술 스택 (Skills)"
-      items:
-        - name: "HTML / CSS"
-        - name: "JavaScript"
-        - name: "Git & GitHub"
-        - name: "Hugo & Cloud"
+    # Skills
+  skills:
+    enable: true
+    title: "기술 스택 (Skills)"
+    items:
+      - name: "HTML / CSS / JS"
+        icon: "/images/skills/html.png"
+      - name: "Git & GitHub"
+        icon: "/images/skills/git.png"
+      - name: "Hugo & Web Design"
+        icon: "/images/skills/hugo.png"
 
   # Experience
   experience:
