@@ -1,0 +1,11 @@
+<!-- Custom Default List Page Template -->
+{{ define "main" }}
+<div class="list-page">
+  <h1>{{ .Title }}</h1>
+  <div class="list-content">
+    {{ range .Pages }}
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
