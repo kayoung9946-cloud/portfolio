@@ -685,14 +685,14 @@ params:
   # Education
   education:
     enable: true
-    # title: "Custom Name"
+    # title: "학력 (Education)"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "한국음악학과 예술경영 전공 / 컴퓨터인공지능 복수전공"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
+          name: "전북대학교"
+          url: "https://www.jbnu.ac.kr"
+        date: "2023 - 재학 중"
         GPA: "3.8 out of 5.0"
         content: |-
           Extracurricular Activities
