@@ -462,10 +462,10 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
+menus:
   main:
     - identifier: gallery
-      name: Gallery
+      name: 갤러리
       title: Gallery
       url: /gallery
       weight: 2
