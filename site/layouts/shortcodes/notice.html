@@ -1,0 +1,7 @@
+<!-- Custom Notice Callout Shortcode -->
+<div class="notice-box notice-{{ .Get "type" | default "info" }}">
+    <div class="notice-title">{{ .Get "title" | default "NOTE" }}</div>
+    <div class="notice-content">
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
