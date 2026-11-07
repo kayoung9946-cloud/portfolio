@@ -1,4 +1,10 @@
-/* Custom Styles */
+/* Custom Stylesheet for Portfolio */
+
 body {
-    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  /* smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
   }
