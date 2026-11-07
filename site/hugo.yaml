@@ -595,14 +595,12 @@ params:
       "안녕하세요! 배움과 기록을 좋아하는 개발자 지망생 박가영입니다. 다양한 웹 기술과 클라우드 환경에 관심을 갖고 공부하고 있으며, 배운 내용을 프로젝트로 구현해 보며 경험을 쌓아가고 있습니다."
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "기술 스택 (Skills)"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - name: "HTML / CSS"
+        - name: "JavaScript"
+        - name: "Git & GitHub"
+        - name: "Hugo & Cloud"
 
   # Experience
   experience:
