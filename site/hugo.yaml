@@ -750,11 +750,11 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    # title: "프로젝트 (Projects)"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: "Hugo 기반 개인 포트폴리오 사이트 구축"
+        content: "GitHub Pages와 Hugo 정적 사이트 생성기를 활용한 개인 이력서 및 포트폴리오 웹사이트 제작 프로젝트입니다."
+        image: "/images/hero.svg"
         featured:
           name: Demo
           link: https://hugo-profile.netlify.app
