@@ -564,22 +564,21 @@ params:
       disableContact: false
 
   # Hero
-  hero:
+hero:
+  enable: true
+  intro: "안녕하세요,"
+  title: "박가영입니다."
+  subtitle: "성장하는 개발자 포트폴리오"
+  content: "GitHub Pages와 Hugo를 활용하여 작성 중인 포트폴리오입니다."
+  image: /images/hero.svg
+  bottomImage:
     enable: true
-    intro: "안녕하세요, 저를 소개합니다."
-    title: "가영"
-    subtitle: "성장을 즐기는 개발자 지망생"
-    content: "content:새로운 기술을 익히고 프로젝트로 구현해보는 것을 즐깁니다. 꾸준한 기록과 연습을 통해 꾸준히 발전해 나가고자 합니다."
-    image: /images/hero.svg
-    bottomImage:
-      enable: true
-    # roundImage: true # Make hero image circular | default false
-    button:
-      enable: true
-      name: "소개 더보기"
-      url: "#about"
-      download: false
-      newPage: false
+  button:
+    enable: true
+    name: "이력서 보기"
+    url: "#about"
+    download: true
+    newPage: false
    # Social Links
     socialLinks:
       fontAwesome: true
