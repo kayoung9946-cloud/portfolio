@@ -240,3 +240,11 @@ Licensed under [MIT](LICENSE)
 Give a ⭐️ or buy me a ~`coffee`~ tea if you like this project!
 
 <a href="https://www.buymeacoffee.com/gurusabarish" target="_blank" rel="noopener"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" width="145" alt="Buy Me A Coffee"></a>
+## 빌드 및 로컬 테스트 방법
+
+```bash
+# Hugo 로컬 서버 실행
+hugo server -D
+
+# 정적 사이트 빌드 (site/public 디렉토리 생성)
+hugo --destination site/public
