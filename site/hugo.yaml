@@ -469,6 +469,9 @@ menus:
       title: Gallery
       url: /gallery
       weight: 2
+      - name: "Contact"
+      url: "contact"
+      weight: 5
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
