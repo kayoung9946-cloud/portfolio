@@ -577,9 +577,9 @@ params:
       download: true
       newPage: false
     socialLinks:
-      fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
+    fontAwesomeIcons:
+      - icon: fab fa-github
+        url: https://github.com/kayoung9946-cloud
         - icon: fab fa-x-twitter
           url: https://example.com
       customIcons:
